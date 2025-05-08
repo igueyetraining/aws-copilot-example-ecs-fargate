@@ -2,7 +2,10 @@ Steps to deploy an App using copilot once the manifest.yml are already created
 ################################################################################
 
 # 1. All in One
-$ copilot deploy --all --init-wkld --deploy-env -e prod
+copilot app init my-multi-ecs-fargate-svc-app
+copilot deploy --all --init-wkld --deploy-env -e test
+
+copilot deploy --all --init-wkld --deploy-env --profile default -e test
 
 ################################################################################
 # Using step by step
