@@ -1,7 +1,7 @@
 Steps to deploy an App using copilot once the manifest.yml are already created
 ################################################################################
 
-# 1. Deloy All in 2 commands.
+# 1. Deloy All in 2 commands
 #1.1 Create the copilot Application
 copilot app init my-multi-ecs-fargate-svc-app
 
